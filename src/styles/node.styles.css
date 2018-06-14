@@ -1,0 +1,32 @@
+.node-list-container {
+  padding: 15px;
+}
+
+.node-container {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.node {
+  width: 120px;
+  height: 120px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.node-p {
+  font-size: 80px;
+  color: lightgrey;
+}
+
+.node-id {
+  font-size: 16px;
+  color: #828282;
+  text-wrap: normal;
+}
